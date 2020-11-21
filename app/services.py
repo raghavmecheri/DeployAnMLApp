@@ -2,6 +2,8 @@ import pickle
 import re
 import nltk
 
+nltk.download('stopwords')
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import svm
 
